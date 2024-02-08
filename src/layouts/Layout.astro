@@ -1,0 +1,29 @@
+---
+	import { ViewTransitions } from 'astro:transitions';
+	import '../libs/css/bootstrap.css';
+	import '../styles.css';
+    import Navbar from "../layouts/Navbar.astro";
+	import Footer from "../layouts/Footer.astro";
+    const { title } = Astro.props;
+---
+
+<html lang="es-mx">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{ title } </title>
+		<ViewTransitions />
+	</head>
+	<body >
+        <Navbar></Navbar>
+        <slot/> <!-- your content is injected here -->
+		<Footer></Footer>
+		<script>
+			import "../libs/js/bootstrap.js";
+		</script>
+	</body>
+</html>
+
+

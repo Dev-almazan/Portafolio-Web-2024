@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;500;600;700&display=swap');
+
+body
+{
+background-color: #171818;
+    background-image: linear-gradient(160deg, #171818 0%, #2c297b 100%);
+        color: aliceblue;
+        background-size: 500px;
+            animation: movimientoInfinito 5s linear infinite;
+            font-family: 'Kanit', sans-serif !important;
+}
+
+@keyframes movimientoInfinito {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 500px 0;
+    }
+}
+
+/*Navbar*/
+
+.menu
+{
+    
+    width:25%;
+    height: auto;
+    margin: 0 auto;
+    display:  grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    bottom: 2% !important;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 10;
+    
+    border-radius: 10px;
+}
+
+.botones
+{
+ width: 6rem;
+ height: auto;
+ border-radius: 0rem;
+ margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+    display: grid;
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    padding: 3%;
+}
+.botones svg
+{
+    width: 2.2rem;
+    align-items: center;
+        display: grid;
+        align-content: center;
+        margin: 0 auto;
+}
+
+.botones:hover {
+    transition: .3s all;
+    margin-bottom: 10%;
+    padding-bottom: 0%;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15) !important;
+    background-color: #171818bd;
+}
+
+.btn-primario
+{
+    background-color: #171818;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.btn-primario:hover {
+    transition: .3s all;
+        margin-left: 1%;
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15) !important;
+}
+
+
+
+@media (max-width: 1250px) {
+/*Navbar*/
+
+    .menu {
+
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        bottom: 0 !important;
+        left: 0;
+        transform: translate(0%, 0%);
+        border-radius: 0px;
+        background-color: #171818bd;
+    }
+
+.botones {
+    
+    font-size: .9em;
+    line-height: 30px;
+    padding: 3.6%;
+}
+
+.botones svg {
+    width: 1.6rem;
+    align-items: center;
+    display: grid;
+    align-content: center;
+    margin: 0 auto;
+}
+        .botones:hover {
+            transition: .3s all;
+            margin-bottom: 0;
+            box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0) !important;
+            background-color: transparent !important;
+        }
+    
+}
