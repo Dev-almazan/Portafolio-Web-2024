@@ -1,5 +1,8 @@
 ---
-    import './home.css';
+    
+	import './home.css';
+	import { Image } from 'astro:assets';
+	import img from './img/astro.png';
    
 ---
 		<div class="inicio">
@@ -10,6 +13,6 @@
 						<p><a class="btn btn-primario" href="/proyectos" role="button">Ver proyectos »</a></p>
 			</div>
             <div class="sec2">
-					<img src="./img/astro.png" class="img" alt=" Ernesto Almazán" />
+					<Image src={img} class="img" alt=" Ernesto Almazán" />
 			</div>
         </div>

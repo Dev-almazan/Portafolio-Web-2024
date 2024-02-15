@@ -1,0 +1,91 @@
+
+
+.inicio
+{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(1 ,1fr);
+    display: grid;
+    padding: 5% 13%;
+  
+}
+
+.inicio div
+{
+    
+    margin:  0 auto;
+}
+
+.tarjeta 
+{
+    background-color: #171818b1;
+    height: 100%;
+    margin: 0 auto;
+    width:95%;
+    
+}
+
+.tarjeta:hover {
+    transition: .3s all;
+    margin-left: 1%;
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15) !important;
+}
+
+.sec1 h1 {
+    font-weight: 600 !important;
+    font-size: 3.8em;
+}
+.sec1 p {
+    font-weight: 200 !important;
+    font-size: 1em;
+    line-height: 33.5px;
+}
+
+.img
+{
+    width: 90%;
+    height: auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.img:hover {
+    transition: .3s ease-in-out;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 1600px) {
+.inicio {
+        padding:1% 5% 54% 5%;
+
+    }
+}
+
+@media (max-width: 1250px) {
+.inicio {
+        height: auto;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5% 5%;
+    }
+
+        .img {
+            width: 100%;
+            padding: 5%;  
+        }
+
+.sec1 h1 {
+    padding-top: 4%;
+    font-weight: 600 !important;
+    font-size: 1.8em;
+}
+
+.sec1 p {
+    font-weight: 200 !important;
+    font-size: 1em;
+    line-height: 33px;
+}
+}

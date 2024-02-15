@@ -1,0 +1,66 @@
+
+   
+    [
+
+                {
+                   
+                    "name": "Ecommerce React",
+                    "tecs": "HTML CSS BOOTSTRAP JS REACT JS",
+                    "description" : "Ecommerce desarrollada de forma nativacon bootstrap 5 & react js incluyendo detalle producto y carrito de compras.",
+                    "url": "https://dev-almazan-ecommerce.netlify.app/",
+                    "img": "2.png",
+                    "category" : "App Web",
+                    "size" : 2023
+                },
+                {
+                    
+                    "name": "Gestor de Productos",
+                    "tecs": "HTML CSS BOOTSTRAP JS PHP Y MYSQL",
+                    "description" : "Ecommerce desarrollada de forma nativa administrador de productos desarrollado en HTML, CSS, Bootstrap 4, JS, PHP Y MYSQL.",
+                    "url": "https://hndmbmexico.com.mx/",
+                    "img": "9.png",
+                    "category" : "App Web",
+                    "size" : 2023
+                },
+                {
+                   
+                    "name": "Landing page ETAC",
+                    "tecs": "HTML CSS BOOTSTRAP JS PHP",
+                    "description" : "Landing page en una sola pagina consumo de API REST desarrollada 100% nativamente.",
+                    "url": "https://www.etac.edu.mx/estudia-hoy",
+                    "img": "1.png",
+                    "category" : "Sitio Web",
+                    "size" : 2023
+                },
+                {
+                   
+                    "name": "ETAC Sección Ebooks",
+                    "tecs": "HTML CSS BOOTSTRAP JS",
+                    "description" : "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de cada ebook almacenado en hubdb de hubspot",
+                    "url": "https://www.etac.edu.mx/descargables",
+                    "img": "7.png",
+                    "category": "Sección Ebooks",
+                    "size" : 2023
+                },
+                {
+                    
+                    "name": "ETAC Planes de estudio",
+                    "tecs": "HTML CSS BOOTSTRAP JS",
+                    "description": "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de planes de estudios almacenados en una base de datos.",
+                    "url": "https://aliatuniversidades.com.mx/plan-estudios/?utm_company=ETAC",
+                    "img": "4.png",
+                    "category": "Portal Web",
+                    "size" : 2023
+                },
+                {
+                    
+                    "name": "Portal Asistencias SKY",
+                    "tecs": "HTML CSS BOOTSTRAP JS",
+                    "description" : "APP WEB de consulta de información para personal call center de SKY.",
+                    "url": "https://boring-meitner-e279c8.netlify.app/",
+                    "img": "8.png",
+                    "category" : "Sitio Web",
+                    "size" : 2022
+                }
+    ]
+     
