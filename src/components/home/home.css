@@ -62,8 +62,12 @@
     }
 
         .img {
-            width: 80%;
-            padding: 5%;  
+            width: 100%;
+            padding: 2%;  
+                margin: 0 auto;
+                    display: grid;
+                    align-content: center;
+                    align-items: center;
         }
 
 .sec1 h1 {

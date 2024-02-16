@@ -7,7 +7,7 @@
     width: 100%;
     grid-template-columns: repeat(1 ,1fr);
     display: grid;
-    padding: 5% 13%;
+    padding: 1% 13% 5%;
   
 }
 
@@ -28,10 +28,19 @@
 
 .tarjeta:hover {
     transition: .3s all;
-    margin-left: 1%;
     background-color: transparent;
     border: 1px solid aliceblue;
     box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15) !important;
+    transform: scale(1.025);
+    
+}
+
+.pic
+{
+    width: 100%;
+    margin:  0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .sec2 h1 {
@@ -69,7 +78,7 @@
         height: auto;
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
-        padding: 5% 5%;
+        padding: 1% 5% 15% 5%;
     }
 
         .img {
