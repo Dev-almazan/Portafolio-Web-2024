@@ -1,9 +1,9 @@
 
 
-.inicio
+.proyectos
 {
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
     width: 100%;
     grid-template-columns: repeat(1 ,1fr);
     display: grid;
@@ -11,7 +11,7 @@
   
 }
 
-.inicio div
+.proyectos div
 {
     
     margin:  0 auto;
@@ -34,11 +34,11 @@
     box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.15) !important;
 }
 
-.sec1 h1 {
+.sec2 h1 {
     font-weight: 600 !important;
     font-size: 3.8em;
 }
-.sec1 p {
+.sec2 p {
     font-weight: 200 !important;
     font-size: 1em;
     line-height: 33.5px;
@@ -58,14 +58,14 @@
 }
 
 @media (max-width: 1600px) {
-.inicio {
-        padding:1% 5% 54% 5%;
-
+.proyectos {
+        padding:1%  10%;
+        height: auto;
     }
 }
 
 @media (max-width: 1250px) {
-.inicio {
+.proyectos {
         height: auto;
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
@@ -77,13 +77,13 @@
             padding: 5%;  
         }
 
-.sec1 h1 {
+.sec2 h1 {
     padding-top: 4%;
     font-weight: 600 !important;
     font-size: 1.8em;
 }
 
-.sec1 p {
+.sec2 p {
     font-weight: 200 !important;
     font-size: 1em;
     line-height: 33px;
