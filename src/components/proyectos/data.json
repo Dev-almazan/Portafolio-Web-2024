@@ -3,64 +3,125 @@
     [
 
                 {
-                   
+                    "id":"1",
                     "name": "Ecommerce React",
-                    "tecs": "HTML CSS BOOTSTRAP JS REACT JS",
-                    "description" : "Ecommerce desarrollada de forma nativacon bootstrap 5 & react js incluyendo detalle producto y carrito de compras.",
+                    "git": "https://github.com/Dev-almazan/Ecommerce-React-js-v2",
+                    "tecs": ["Html","Css","Java Script","React js","Bootstrap","Firebase"],
+                    "description" : "Proyecto de Ecommerce desarrollada React js incluyendo detalle producto y carrito de compras.",
                     "url": "https://dev-almazan-ecommerce.netlify.app/",
                     "img": "/media/2.png",
                     "category" : "App Web",
                     "size" : 2023
                 },
                 {
-                    
-                    "name": "Gestor de Productos",
-                    "tecs": "HTML CSS BOOTSTRAP JS PHP Y MYSQL",
-                    "description" : "Administrador de productos desarrollado en HTML, CSS, Bootstrap 4, JS, PHP Y MYSQL.",
-                    "url": "https://hndmbmexico.com.mx/",
+                    "id": "2",
+                    "name": "Seccion Cursos",
+                    "git": "https://github.com/Dev-almazan/Fundamentos-Typescript",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script",
+                        "Bootstrap",
+                        "TypeScript"
+                    ],
+                    "description" : "Seccion de cursos realizada con typescript con un buscador dinamico.",
+                    "url": "https://tsc-cursos.netlify.app/",
                     "img": "/media/9.png",
                     "category" : "App Web",
                     "size" : 2023
                 },
                 {
-                   
+                    "id": "3",
                     "name": "Landing page ETAC",
-                    "tecs": "HTML CSS BOOTSTRAP JS PHP",
-                    "description" : "Landing page en una sola pagina consumo de API REST con Java Script",
-                    "url": "https://www.etac.edu.mx/estudia-hoy",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script"
+                    ],
+                    "description" : "Landing page  consumo de API REST con JS",
+                    "url": "https://dev-almazan-landing-page.netlify.app/",
+                    "git": "https://github.com/Dev-almazan/Landing-page-Aliat-Uni",
                     "img": "/media/1.png",
                     "category" : "Sitio Web",
                     "size" : 2023
                 },
                 {
-                   
+                    "id": "4",
                     "name": "ETAC Sección Ebooks",
-                    "tecs": "HTML CSS BOOTSTRAP JS",
-                    "description" : "Modulo desarrollado en hub spot consumo de API REST con Java Script",
+                    "git": "https://github.com/Dev-almazan/Ebook-landing-page",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script"
+                    ],
+                    "description" : "Sección cards desarrollada en hub spot consumo de API REST con Java Script con buscador dinamico",
                     "url": "https://www.etac.edu.mx/descargables",
                     "img": "/media/7.png",
                     "category": "Sección Ebooks",
                     "size" : 2023
                 },
                 {
-                    
+                    "id": "5",   
                     "name": "ETAC Planes de estudio",
-                    "tecs": "HTML CSS BOOTSTRAP JS",
-                    "description": "Modulo desarrollado con programación nativa. Consumida con fetch js para manipular la información de planes de estudios almacenados en una base de datos.",
+                    "git": "https://github.com/Dev-almazan/",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script",
+                        "Php"
+                    ],
+                    "description": "Formulario de pasos generado con JS Vanilla",
                     "url": "https://aliatuniversidades.com.mx/plan-estudios/?utm_company=ETAC",
                     "img": "/media/4.png",
                     "category": "Portal Web",
                     "size" : 2023
                 },
                 {
-                    
-                    "name": "Portal Asistencias SKY",
-                    "tecs": "HTML CSS BOOTSTRAP JS",
-                    "description" : "APP WEB de consulta de información para personal call center de SKY.",
-                    "url": "https://boring-meitner-e279c8.netlify.app/",
-                    "img": "/media/8.png",
-                    "category" : "Sitio Web",
-                    "size" : 2022
+                    "id": "6",
+                    "name": "integración de API  Facebook",
+                    "git": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads/",
+                    "tecs": [
+                        "Php",
+                        "Curl php"
+                    ],
+                    "description": "Esta es una integracion que permite enviar  información a la API de facebook ads.",
+                    "url": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads/blob/main/index.php",
+                    "img": "/media/13.png",
+                    "category": "Portal Web",
+                    "size": 2023
+                },
+                {
+                    "id": "7",
+                    "name": "Portafolio Web",
+                    "git": "https://github.com/Dev-almazan/Portafolio-Web-2024",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script",
+                        "Astro JS",
+                        "Bootstrap"
+                    ],
+                    "description": "Portafolio web desarrollado con astro JS",
+                    "url": "https://dev-almazan.netlify.app/",
+                    "img": "/media/12.png",
+                    "category": "Portal Web",
+                    "size": 2023
+                },
+                {
+                    "id": "8",
+                    "name": "Matcha Landing page",
+                    "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Bootstrap"
+                    ],
+                    "description": "Landing page en una sola pagina",
+                    "url": "https://dev-almazan-matcha.netlify.app/",
+                    "img": "/media/14.png",
+                    "category": "Portal Web",
+                    "size": 2023
                 }
+
     ]
      
