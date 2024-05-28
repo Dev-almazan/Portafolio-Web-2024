@@ -1,19 +1,26 @@
 ---
-    
-	import './home.css';
-	import { Image } from 'astro:assets';
-	import img from './img/astro.png';
-   
+import "./home.css";
+import { Image } from "astro:assets";
+import img from "./img/astro.png";
 ---
-		<section class="inicio">
-            <div>
-			
-						<h1 class="display-3 pb-2">Ernesto Almazán</h1>
-						<h2 class=" pb-2"> Desarrollador Web Full Stack</h2>
-						<p>Bienvenido a mi portafolio web, a continuación podras encontrar algunos de los proyectos que he generado asi como información acerca de mi. </p>
-						<p><a class="btn btn-primario" href="/proyectos" role="button">Ver proyectos »</a></p>
-			</div>
-            <div>
-					<Image src={img} class="img" alt=" Ernesto Almazán" />
-			</div>
-        </section>
+
+<section class="inicio">
+	<div>
+		<h1 class="display-3 pb-2">Ernesto Almazán</h1>
+		<h2 class="pb-2">Desarrollador Web Full Stack</h2>
+		<p>
+			Bienvenido a mi portafolio web, a continuación podras encontrar
+			algunos de los proyectos que he generado asi como información acerca
+			de mi.
+		</p>
+
+		<p>
+			<a class="btn btn-primario" href="/proyectos" role="button"
+				>Ver proyectos »</a
+			>
+		</p>
+	</div>
+	<div>
+		<Image src={img} class="img" alt=" Ernesto Almazán" />
+	</div>
+</section>
