@@ -121,6 +121,21 @@
                     "img": "/media/14.png",
                     "category": "Portal Web",
                     "size": 2023
+                },
+                 {
+                    "id": "9",
+                    "name": "Calculadora JS",
+                    "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Bootstrap"
+                    ],
+                    "description": "Calculadora de becas desarrollada con web components nativos de js.",
+                    "url": "https://dev-almazan-calculadora-web-component.netlify.app/",
+                    "img": "/media/16.png",
+                    "category": "Portal Web",
+                    "size": 2024
                 }
 
     ]
