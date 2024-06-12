@@ -14,22 +14,22 @@
                     "size" : 2023
                 },
                 {
-                    "id": "9",
-                    "name": "Seccion Cursos",
-                    "git": "https://github.com/Dev-almazan/Fundamentos-Typescript",
+                    "id": "2",
+                    "name": "Calculadora JS",
+                    "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
                     "tecs": [
                         "Html",
                         "Css",
                         "Java Script",
-                        "Bootstrap",
-                        "TypeScript"
+                        "Web components"
                     ],
-                    "description" : "Seccion de cursos realizada con typescript con un buscador dinamico.",
-                    "url": "https://tsc-cursos.netlify.app/",
-                    "img": "/media/9.png",
-                    "category" : "App Web",
-                    "size" : 2023
+                    "description": "Calculadora de becas desarrollada con web components nativos de js.",
+                    "url": "https://dev-almazan-calculadora-web-component.netlify.app/",
+                    "img": "/media/16.png",
+                    "category": "Portal Web",
+                    "size": 2024
                 },
+
                 {
                     "id": "3",
                     "name": "Landing page ETAC",
@@ -58,6 +58,23 @@
                     "url": "https://www.etac.edu.mx/descargables",
                     "img": "/media/7.png",
                     "category": "Sección Ebooks",
+                    "size" : 2023
+                },
+                  {
+                    "id": "9",
+                    "name": "Seccion Cursos",
+                    "git": "https://github.com/Dev-almazan/Fundamentos-Typescript",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script",
+                        "Bootstrap",
+                        "TypeScript"
+                    ],
+                    "description" : "Seccion de cursos realizada con typescript con un buscador dinamico.",
+                    "url": "https://tsc-cursos.netlify.app/",
+                    "img": "/media/9.png",
+                    "category" : "App Web",
                     "size" : 2023
                 },
                 {
@@ -121,23 +138,8 @@
                     "img": "/media/14.png",
                     "category": "Portal Web",
                     "size": 2023
-                },
-                 {
-                    "id": "2",
-                    "name": "Calculadora JS",
-                    "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
-                    "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Web components" 
-                    ],
-                    "description": "Calculadora de becas desarrollada con web components nativos de js.",
-                    "url": "https://dev-almazan-calculadora-web-component.netlify.app/",
-                    "img": "/media/16.png",
-                    "category": "Portal Web",
-                    "size": 2024
                 }
+                 
 
     ]
      
