@@ -14,7 +14,7 @@
                     "size" : 2023
                 },
                 {
-                    "id": "2",
+                    "id": "9",
                     "name": "Seccion Cursos",
                     "git": "https://github.com/Dev-almazan/Fundamentos-Typescript",
                     "tecs": [
@@ -123,13 +123,14 @@
                     "size": 2023
                 },
                  {
-                    "id": "9",
+                    "id": "2",
                     "name": "Calculadora JS",
                     "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
                     "tecs": [
                         "Html",
                         "Css",
-                        "Bootstrap"
+                        "Java Script",
+                        "Web components" 
                     ],
                     "description": "Calculadora de becas desarrollada con web components nativos de js.",
                     "url": "https://dev-almazan-calculadora-web-component.netlify.app/",
