@@ -24,14 +24,30 @@
                         "Web components"
                     ],
                     "description": "Calculadora de becas desarrollada con web components nativos de js.",
-                    "url": "https://dev-almazan-calculadora-web-component.netlify.app/",
+                    "url": "https://github.com/Dev-almazan/componente-microfono-",
                     "img": "/media/16.png",
-                    "category": "Portal Web",
+                    "category": "Componente Web",
+                    "size": 2024
+                },
+                 {
+                    "id": "3",
+                    "name": "Web component input audio",
+                    "git": "https://github.com/Dev-almazan/componente-microfono-",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script",
+                        "Web components"
+                    ],
+                    "description": "Componente web nativo con js vanilla - Captación de audio y transformación a texto .",
+                    "url": "https://componente-microfono-dev-almazan.netlify.app/",
+                    "img": "/media/17.png",
+                    "category": "Componente Web",
                     "size": 2024
                 },
 
                 {
-                    "id": "3",
+                    "id": "4",
                     "name": "Landing page ETAC",
                     "tecs": [
                         "Html",
@@ -46,7 +62,7 @@
                     "size" : 2023
                 },
                 {
-                    "id": "4",
+                    "id": "5",
                     "name": "ETAC Sección Ebooks",
                     "git": "https://github.com/Dev-almazan/Ebook-landing-page",
                     "tecs": [
@@ -61,7 +77,7 @@
                     "size" : 2023
                 },
                   {
-                    "id": "9",
+                    "id": "6",
                     "name": "Seccion Cursos",
                     "git": "https://github.com/Dev-almazan/Fundamentos-Typescript",
                     "tecs": [
@@ -78,7 +94,7 @@
                     "size" : 2023
                 },
                 {
-                    "id": "5",   
+                    "id": "7",   
                     "name": "ETAC Planes de estudio",
                     "git": "https://github.com/Dev-almazan/",
                     "tecs": [
@@ -94,7 +110,7 @@
                     "size" : 2023
                 },
                 {
-                    "id": "6",
+                    "id": "8",
                     "name": "integración de API  Facebook",
                     "git": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads/",
                     "tecs": [
@@ -108,7 +124,7 @@
                     "size": 2023
                 },
                 {
-                    "id": "7",
+                    "id": "9",
                     "name": "Portafolio Web",
                     "git": "https://github.com/Dev-almazan/Portafolio-Web-2024",
                     "tecs": [
@@ -125,7 +141,7 @@
                     "size": 2023
                 },
                 {
-                    "id": "8",
+                    "id": "10",
                     "name": "Matcha Landing page",
                     "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
                     "tecs": [
@@ -137,7 +153,7 @@
                     "url": "https://dev-almazan-matcha.netlify.app/",
                     "img": "/media/14.png",
                     "category": "Portal Web",
-                    "size": 2023
+                    "size": 2021
                 }
                  
 
