@@ -14,9 +14,9 @@
                     "size" : 2023
                 },
                 {
-                    "id": "2",
-                    "name": "Calculadora JS",
-                    "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
+                    "id": "4",
+                    "name": "Calculadora de Becas",
+                    "git": "https://github.com/Dev-almazan/Web-components---Calculadora.git",
                     "tecs": [
                         "Html",
                         "Css",
@@ -24,7 +24,7 @@
                         "Web components"
                     ],
                     "description": "Calculadora de becas desarrollada con web components nativos de js.",
-                    "url": "https://github.com/Dev-almazan/componente-microfono-",
+                    "url": "https://www.etac.edu.mx/etac/becas",
                     "img": "/media/16.png",
                     "category": "Componente Web",
                     "size": 2024
@@ -45,117 +45,21 @@
                     "category": "Componente Web",
                     "size": 2024
                 },
-
                 {
-                    "id": "4",
-                    "name": "Landing page ETAC",
+                    "id": "2",
+                    "name": "Formulario Web",
+                    "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
                     "tecs": [
                         "Html",
                         "Css",
                         "Java Script"
                     ],
-                    "description" : "Landing page  consumo de API REST con JS",
-                    "url": "https://dev-almazan-landing-page.netlify.app/",
-                    "git": "https://github.com/Dev-almazan/Landing-page-Aliat-Uni",
-                    "img": "/media/1.png",
-                    "category" : "Sitio Web",
-                    "size" : 2023
-                },
-                {
-                    "id": "5",
-                    "name": "ETAC Sección Ebooks",
-                    "git": "https://github.com/Dev-almazan/Ebook-landing-page",
-                    "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script"
-                    ],
-                    "description" : "Sección cards desarrollada en hub spot consumo de API REST con Java Script con buscador dinamico",
-                    "url": "https://www.etac.edu.mx/descargables",
-                    "img": "/media/7.png",
-                    "category": "Sección Ebooks",
-                    "size" : 2023
-                },
-                  {
-                    "id": "6",
-                    "name": "Seccion Cursos",
-                    "git": "https://github.com/Dev-almazan/Fundamentos-Typescript",
-                    "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Bootstrap",
-                        "TypeScript"
-                    ],
-                    "description" : "Seccion de cursos realizada con typescript con un buscador dinamico.",
-                    "url": "https://tsc-cursos.netlify.app/",
-                    "img": "/media/9.png",
-                    "category" : "App Web",
-                    "size" : 2023
-                },
-                {
-                    "id": "7",   
-                    "name": "ETAC Planes de estudio",
-                    "git": "https://github.com/Dev-almazan/",
-                    "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Php"
-                    ],
-                    "description": "Formulario de pasos generado con JS Vanilla",
-                    "url": "https://aliatuniversidades.com.mx/plan-estudios/?utm_company=ETAC",
-                    "img": "/media/4.png",
-                    "category": "Portal Web",
-                    "size" : 2023
-                },
-                {
-                    "id": "8",
-                    "name": "integración de API  Facebook",
-                    "git": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads/",
-                    "tecs": [
-                        "Php",
-                        "Curl php"
-                    ],
-                    "description": "Esta es una integracion que permite enviar  información a la API de facebook ads.",
-                    "url": "https://github.com/Dev-almazan/API-de-conversiones-avazandas-de-facebook-ads/blob/main/index.php",
-                    "img": "/media/13.png",
-                    "category": "Portal Web",
-                    "size": 2023
-                },
-                {
-                    "id": "9",
-                    "name": "Portafolio Web",
-                    "git": "https://github.com/Dev-almazan/Portafolio-Web-2024",
-                    "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Astro JS",
-                        "Bootstrap"
-                    ],
-                    "description": "Portafolio web desarrollado con astro JS",
-                    "url": "https://dev-almazan.netlify.app/",
-                    "img": "/media/12.png",
-                    "category": "Portal Web",
-                    "size": 2023
-                },
-                {
-                    "id": "10",
-                    "name": "Matcha Landing page",
-                    "git": "https://github.com/Dev-almazan/Landing-page-MATCHA",
-                    "tecs": [
-                        "Html",
-                        "Css",
-                        "Bootstrap"
-                    ],
-                    "description": "Landing page en una sola pagina",
-                    "url": "https://dev-almazan-matcha.netlify.app/",
-                    "img": "/media/14.png",
-                    "category": "Portal Web",
-                    "size": 2021
+                    "description" : "Sección formulario desarrollada por medio de web components de Java Script POO.",
+                    "url": "https://dev-almazan-form.netlify.app/",
+                    "img": "/media/18.png",
+                    "category": "Sección Formulario",
+                    "size" : 2024
                 }
-                 
-
+                
     ]
      
