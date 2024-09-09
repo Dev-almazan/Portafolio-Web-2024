@@ -59,7 +59,22 @@
                     "img": "/media/18.png",
                     "category": "Sección Formulario",
                     "size" : 2024
-                }
-                
+                },
+                {
+                    "id": "5",
+                    "name": "Web component Portadas",
+                    "git": "https://github.com/Dev-almazan/Web-component-Portadas",
+                    "tecs": [
+                        "Html",
+                        "Css",
+                        "Java Script",
+                        "Web components"
+                    ],
+                    "description": "Componente web nativo con js vanilla - Interfaz Web - Portadas de una revista - Consumo de Api actualizando data de los 3 componentes de manera reactiva.",
+                    "url": "https://dev-almazan-portada-component.netlify.app/",
+                    "img": "/media/5.png",
+                    "category": "Componente Web",
+                    "size": 2024
+                }         
     ]
      
