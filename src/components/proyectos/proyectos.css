@@ -58,7 +58,7 @@
 }
 .sec2 .badge
 {
-    font-size: .8em;
+    font-size: .7em;
     font-weight: 300 !important;
     text-align: left;
     margin-right: 3px;
@@ -66,10 +66,10 @@
 .grupo
 {
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: .5rem;
 }
 .grupob {
-    width: 80%;
+    width: 100%;
     display:flex;
 }
 .img

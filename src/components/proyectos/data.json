@@ -6,7 +6,7 @@
                     "id":"1",
                     "name": "Ecommerce React",
                     "git": "https://github.com/Dev-almazan/Ecommerce-React-js-v2",
-                    "tecs": ["Html","Css","Java Script","React js","Bootstrap","Firebase"],
+                    "tecs": ["Front End" , "Firebase", "React JS"], 
                     "description" : "Proyecto de Ecommerce desarrollada React js incluyendo detalle producto y carrito de compras.",
                     "url": "https://dev-almazan-ecommerce.netlify.app/",
                     "img": "/media/2.png",
@@ -18,30 +18,25 @@
                     "name": "Calculadora de Becas",
                     "git": "https://github.com/Dev-almazan/Web-components---Calculadora.git",
                     "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Web components"
+                        "Front End" ,"Web Components"
                     ],
                     "description": "Calculadora de becas desarrollada con web components nativos de js.",
-                    "url": "https://www.etac.edu.mx/etac/becas",
+                    "url": "https://dev-almazan-calculadora.netlify.app/",
                     "img": "/media/16.png",
                     "category": "Componente Web",
                     "size": 2024
                 },
                  {
                     "id": "3",
-                    "name": "Web component input audio",
-                    "git": "https://github.com/Dev-almazan/componente-microfono-",
+                    "name": "Sitio web Conexxion",
+                    "git": "default",
                     "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Web components"
+                        "Front End",
+                        "Web Components"
                     ],
-                    "description": "Componente web nativo con js vanilla - Captación de audio y transformación a texto .",
-                    "url": "https://componente-microfono-dev-almazan.netlify.app/",
-                    "img": "/media/17.png",
+                    "description": "Desarrollo Front End del sitio web consumiendo API REST desplegado en cms Hub Spot.",
+                    "url": "https://www.aliatuniversidades.com.mx/conexxion",
+                    "img": "/media/20.png",
                     "category": "Componente Web",
                     "size": 2024
                 },
@@ -50,11 +45,10 @@
                     "name": "Formulario Web",
                     "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
                     "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script"
+                            "Front End",
+                            "Web Components"
                     ],
-                    "description" : "Sección formulario desarrollada por medio de web components de Java Script POO.",
+                    "description" : "Interfaz Web formulario desarrollada por medio de web components de Java Script POO.",
                     "url": "https://dev-almazan-form.netlify.app/",
                     "img": "/media/18.png",
                     "category": "Sección Formulario",
@@ -62,19 +56,34 @@
                 },
                 {
                     "id": "5",
-                    "name": "Web component Portadas",
-                    "git": "https://github.com/Dev-almazan/Web-component-Portadas",
+                    "name": "Api Rest PHP",
+                    "git": "https://github.com/Dev-almazan/CRUD-API-REST/",
                     "tecs": [
-                        "Html",
-                        "Css",
-                        "Java Script",
-                        "Web components"
+                        "Back End",
+                        "MYSQL",
+                        "MVC",
+                        "API REST"
                     ],
-                    "description": "Componente web nativo con js vanilla - Interfaz Web - Portadas de una revista - Consumo de Api actualizando data de los 3 componentes de manera reactiva.",
-                    "url": "https://dev-almazan-portada-component.netlify.app/",
-                    "img": "/media/5.png",
-                    "category": "Componente Web",
+                    "description": "API REST con PHP interactuando con la base de datos MYSQL simulando una API REST.",
+                    "url": "default",
+                    "img": "/media/21.png",
+                    "category": "API REST",
                     "size": 2024
-                }         
+                },
+                {
+                    "id": "6",
+                    "name": "Flows Encryption PHP NATIVO",
+                    "git": "https://github.com/Dev-almazan/Flows-Encryption-PHP-NATIVO",
+                    "tecs": [
+                        "Back End",
+                        "API REST"
+                    ],
+                    "description": "Integración Web con PHP para establecer comunicación con Whats App para el intercambio de datos de WhatsApp Flows.",
+                    "url": "default",
+                    "img": "/media/24.png",
+                    "category": "API REST",
+                    "size": 2024
+                }
+
     ]
      
