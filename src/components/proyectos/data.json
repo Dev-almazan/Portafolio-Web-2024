@@ -2,19 +2,50 @@
    
     [
 
+            {
+                "id": "4",
+                "name": "Formulario Web Interfaz",
+                "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
+                "tecs": [
+                    "Front End",
+                    "Web Components"
+                ],
+                "description": "Interfaz Web formulario desarrollada por medio de web components de Java Script POO.",
+                "url": "https://dev-almazan-form.netlify.app/",
+                "img": "/media/18.png",
+                "category": "Sección Formulario",
+                "size": 2024
+            },
+
                 {
                     "id":"1",
                     "name": "Ecommerce React",
                     "git": "https://github.com/Dev-almazan/Ecommerce-React-js-v2",
-                    "tecs": ["Front End" , "Firebase", "React JS"], 
+                    "tecs": ["Front End", "React JS"," SPA",    "Firebase"], 
                     "description" : "Proyecto de Ecommerce desarrollada React js incluyendo detalle producto y carrito de compras.",
                     "url": "https://dev-almazan-ecommerce.netlify.app/",
                     "img": "/media/2.png",
-                    "category" : "App Web",
+                    "category" : "App Web SPA",
                     "size" : 2023
                 },
                 {
-                    "id": "4",
+                    "id": "5",
+                    "name": "Login Autenticación React",
+                    "git": "https://github.com/Dev-almazan/app-login-usuario.react",
+                    "tecs": [
+                        "Front End",
+                        "React JS",
+                        " SPA"
+                    ],
+                    "description": "Login de usuario utilizando react router para manejo de rutas para los componentes y use Context para el manejo de variables globales.",
+                    "url": "https://dev-almazan-app-login-react.netlify.app/",
+                    "img": "/media/21.png",
+                    "category": "App Web SPA",
+                    "size": 2025
+                },
+
+                {
+                    "id": "2",
                     "name": "Calculadora de Becas",
                     "git": "https://github.com/Dev-almazan/Web-components---Calculadora.git",
                     "tecs": [
@@ -40,48 +71,20 @@
                     "category": "Componente Web",
                     "size": 2024
                 },
-                {
-                    "id": "2",
-                    "name": "Formulario Web",
-                    "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
-                    "tecs": [
-                            "Front End",
-                            "Web Components"
-                    ],
-                    "description" : "Interfaz Web formulario desarrollada por medio de web components de Java Script POO.",
-                    "url": "https://dev-almazan-form.netlify.app/",
-                    "img": "/media/18.png",
-                    "category": "Sección Formulario",
-                    "size" : 2024
-                },
-                {
-                    "id": "5",
-                    "name": "Api Rest PHP",
-                    "git": "https://github.com/Dev-almazan/CRUD-API-REST/",
-                    "tecs": [
-                        "Back End",
-                        "MYSQL",
-                        "MVC",
-                        "API REST"
-                    ],
-                    "description": "API REST con PHP interactuando con la base de datos MYSQL simulando una API REST.",
-                    "url": "default",
-                    "img": "/media/21.png",
-                    "category": "API REST",
-                    "size": 2024
-                },
+ 
+
                 {
                     "id": "6",
                     "name": "Flows Encryption PHP NATIVO",
                     "git": "https://github.com/Dev-almazan/Flows-Encryption-PHP-NATIVO",
                     "tecs": [
                         "Back End",
-                        "API REST"
+                        "Encryptación Asimetrica"
                     ],
                     "description": "Integración Web con PHP para establecer comunicación con Whats App para el intercambio de datos de WhatsApp Flows.",
                     "url": "default",
                     "img": "/media/24.png",
-                    "category": "API REST",
+                    "category": "App Web",
                     "size": 2024
                 }
 

@@ -3,7 +3,7 @@
 .inicio
 {
     margin: 0 ;
-    height: 89vh;
+    height: 80vh;
     width: 100%;
     grid-template-columns: repeat(2 ,1fr);
     display: grid;
@@ -41,11 +41,16 @@ margin: 0 auto;
     padding: 2%;
     box-sizing: border-box;
     margin: 0 auto;
+        transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
 }
 
+.indices_card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+}
+
+
 .inicio .img:hover {
-    transition: .3s ease-in-out;
-    margin-bottom: 10%;
+transform: translateY(-50px);
 }
 @media (max-width: 1600px) {
 .inicio {
@@ -55,10 +60,11 @@ margin: 0 auto;
 
 @media (max-width: 1250px) {
 .inicio {
-        height: auto;
+        height: 100vh;
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         padding: 0 7%;
+        align-items: center;
     }
 
         .inicio    .img {
