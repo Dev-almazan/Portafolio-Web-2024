@@ -2,10 +2,9 @@
 
 body
 {
-background-color: #171818;
-    background-image: linear-gradient(160deg, #2f30328e 0%, #0f79c0 100%);
+    background-image: linear-gradient(160deg, #06152c 0%, #1fa4a0 100%);
         color: aliceblue;
-        background-size: 900px;
+        background-size: 80%;
         background-attachment: fixed;
             animation: movimientoInfinito 6s linear infinite;
             font-family: 'Kanit', sans-serif !important;
