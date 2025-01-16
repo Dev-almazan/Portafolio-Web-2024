@@ -2,11 +2,11 @@
 
 
 :root{
-    --border-card :5px #1fa4a0 solid;
+    --border-card :5px #1c7debcf solid;
 }
 .bg-primario
 {
-    background-color: #1fa4a0;
+    background-color: #1c7debcf;
 }
 .proyectos
 {
