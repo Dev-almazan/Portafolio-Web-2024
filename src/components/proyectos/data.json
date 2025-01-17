@@ -2,6 +2,21 @@
    
     [
 
+
+                    {
+                        "id": "0",
+                        "name": "De voz a texto",
+                        "git": "https://github.com/Dev-almazan/componente-microfono-.git",
+                        "tecs": [
+                            "Front End",
+                            "Web Components"
+                        ],
+                        "description": "Micrófono que traduce de voz a texto desarrollado por medio de web components de Java Script POO.",
+                        "url": "https://componente-microfono-dev-almazan.netlify.app/",
+                        "img": "/media/0.png",
+                        "category": "Componente Web",
+                        "size": 2024
+                    },
             {
                 "id": "4",
                 "name": "Formulario Web Interfaz",
