@@ -1,10 +1,49 @@
 
    
     [
-
-
+                {
+                    "id": "0",
+                    "name": "Api Rest Ecommerce",
+                    "git": "https://github.com/Dev-almazan/Api-rest-Ecommerce",
+                    "tecs": [
+                        "Back End",
+                        "Node Js & Express Js",
+                        "Api Rest",
+                        "JSON"
+                    ],
+                    "description": "Proyecto de api rest desarrollada con Node & Express Js incluyendo los 4 principales metodos http , con persistencia en un arhcivo JSON",
+                    "url": "default",
+                    "img": "/media/30.png",
+                    "category": "Api Rest",
+                    "size": 2025
+                },
+                {
+                    "id":"1",
+                    "name": "Ecommerce React",
+                    "git": "https://github.com/Dev-almazan/Ecommerce-React-js-v2",
+                    "tecs": ["Front End", "React JS"," SPA",    "Firebase"], 
+                    "description" : "Proyecto de Ecommerce desarrollada React js incluyendo detalle producto y carrito de compras.",
+                    "url": "https://dev-almazan-ecommerce.netlify.app/",
+                    "img": "/media/2.png",
+                    "category" : "App Web SPA",
+                    "size" : 2023
+                    },
                     {
-                        "id": "0",
+                        "id": "3",
+                        "name": "Web Interfaz",
+                        "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
+                        "tecs": [
+                            "Front End",
+                            "Web Components"
+                        ],
+                        "description": "Interfaz Web formulario desarrollada por medio de web components de Java Script POO.",
+                        "url": "https://dev-almazan-form.netlify.app/",
+                        "img": "/media/18.png",
+                        "category": "Sección Formulario",
+                        "size": 2024
+                    },
+                    {
+                        "id": "2",
                         "name": "De voz a texto",
                         "git": "https://github.com/Dev-almazan/componente-microfono-.git",
                         "tecs": [
@@ -17,34 +56,9 @@
                         "category": "Componente Web",
                         "size": 2024
                     },
-            {
-                "id": "4",
-                "name": "Formulario Web Interfaz",
-                "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
-                "tecs": [
-                    "Front End",
-                    "Web Components"
-                ],
-                "description": "Interfaz Web formulario desarrollada por medio de web components de Java Script POO.",
-                "url": "https://dev-almazan-form.netlify.app/",
-                "img": "/media/18.png",
-                "category": "Sección Formulario",
-                "size": 2024
-            },
-
+                    
                 {
-                    "id":"1",
-                    "name": "Ecommerce React",
-                    "git": "https://github.com/Dev-almazan/Ecommerce-React-js-v2",
-                    "tecs": ["Front End", "React JS"," SPA",    "Firebase"], 
-                    "description" : "Proyecto de Ecommerce desarrollada React js incluyendo detalle producto y carrito de compras.",
-                    "url": "https://dev-almazan-ecommerce.netlify.app/",
-                    "img": "/media/2.png",
-                    "category" : "App Web SPA",
-                    "size" : 2023
-                },
-                {
-                    "id": "5",
+                    "id": "4",
                     "name": "Login Autenticación React",
                     "git": "https://github.com/Dev-almazan/app-login-usuario.react",
                     "tecs": [
@@ -60,7 +74,7 @@
                 },
 
                 {
-                    "id": "2",
+                    "id": "5",
                     "name": "Calculadora de Becas",
                     "git": "https://github.com/Dev-almazan/Web-components---Calculadora.git",
                     "tecs": [
@@ -73,7 +87,7 @@
                     "size": 2024
                 },
                  {
-                    "id": "3",
+                    "id": "6",
                     "name": "Sitio web Conexxion",
                     "git": "default",
                     "tecs": [
@@ -89,7 +103,7 @@
  
 
                 {
-                    "id": "6",
+                    "id": "7",
                     "name": "Flows Encryption PHP NATIVO",
                     "git": "https://github.com/Dev-almazan/Flows-Encryption-PHP-NATIVO",
                     "tecs": [
