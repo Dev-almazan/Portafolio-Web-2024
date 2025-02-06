@@ -11,7 +11,7 @@
                         "Api Rest",
                         "JSON"
                     ],
-                    "description": "Proyecto de api rest desarrollada con Node & Express Js incluyendo los 4 principales metodos http , con persistencia en un arhcivo JSON",
+                    "description": "Proyecto de api rest desarrollada con Node & Express Js incluyendo los 4 principales metodos http , con persistencia en un archivo JSON",
                     "url": "default",
                     "img": "/media/30.png",
                     "category": "Api Rest",
