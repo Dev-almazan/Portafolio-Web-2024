@@ -11,8 +11,8 @@
                         "Api Rest",
                         "JSON"
                     ],
-                    "description": "Proyecto de api rest desarrollada con Node & Express Js incluyendo los 4 principales metodos http , con persistencia en un archivo JSON",
-                    "url": "default",
+                    "description": "Proyecto de api rest desarrollada Express Js con persistencia en base de datos mongo db y desplegada en una instancia de aws con ubuntu & ngnix",
+                    "url": "http://54.84.22.21/api/products",
                     "img": "/media/30.png",
                     "category": "Api Rest",
                     "size": 2025
