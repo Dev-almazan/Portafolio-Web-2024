@@ -11,8 +11,8 @@
                         "Mongo Cloud",
                         "Aws"
                     ],
-                    "description": "Proyecto de api rest desarrollada en Express Js con persistencia en base de datos mongo db y desplegada en una instancia de aws con ubuntu & ngnix",
-                    "url": "http://44.200.0.42/api/products",
+                    "description": "Proyecto de api rest desarrollada en Express Js con persistencia en base de datos mongo db",
+                    "url": "https://api-rest-ecommerce-seq3.onrender.com/api/products/",
                     "img": "/media/30.png",
                     "category": "Api Rest",
                     "size": 2025
@@ -41,7 +41,20 @@
                         "img": "/media/18.png",
                         "category": "Sección Formulario",
                         "size": 2024
-                    },                    
+                    }, 
+                    {
+                        "id": "9",
+                        "name": "Landing page",
+                        "git": "#",
+                        "tecs": [
+                            "Front End"
+                        ],
+                        "description": "Landing page desarrollada con html5 , css3, y JavaScript",
+                        "url": "https://www.unea.edu.mx/licenciaturas-ejecutivas/",
+                        "img": "/media/23.png",
+                        "category": "Landing page",
+                        "size": 2025
+                    },
                 {
                     "id": "4",
                     "name": "Login Autenticación React",
