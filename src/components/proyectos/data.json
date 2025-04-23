@@ -1,6 +1,21 @@
 
    
     [
+                            {
+                                "id": "9",
+                                "name": "Landing page",
+                                "git": "https://github.com/Dev-almazan/Shield-Plus",
+                                "tecs": [
+                                    "Front End",
+                                    "html5",
+                                    "css3"
+                                ],
+                                "description": "Landing page desarrollada con html5 , css3 y bootstrap v5 contemplando diseño responsivo.",
+                                "url": "https://dev-almazan-test-lp.netlify.app/",
+                                "img": "/media/23.png",
+                                "category": "Landing page",
+                                "size": 2025
+                            },
                 {
                     "id": "0",
                     "name": "Api Rest Ecommerce",
@@ -34,6 +49,8 @@
                         "git": "https://github.com/Dev-almazan/formulario-onaliat.git",
                         "tecs": [
                             "Front End",
+                            "html5",
+                            "css3",
                             "Web Components"
                         ],
                         "description": "Interfaz Web formulario desarrollada por medio de web components de Java Script POO.",
@@ -42,19 +59,7 @@
                         "category": "Sección Formulario",
                         "size": 2024
                     }, 
-                    {
-                        "id": "9",
-                        "name": "Landing page",
-                        "git": "#",
-                        "tecs": [
-                            "Front End"
-                        ],
-                        "description": "Landing page desarrollada con html5 , css3, y JavaScript",
-                        "url": "https://www.unea.edu.mx/licenciaturas-ejecutivas/",
-                        "img": "/media/23.png",
-                        "category": "Landing page",
-                        "size": 2025
-                    },
+
                 {
                     "id": "4",
                     "name": "Login Autenticación React",
@@ -76,7 +81,8 @@
                     "name": "Calculadora de Becas",
                     "git": "https://github.com/Dev-almazan/Web-components---Calculadora.git",
                     "tecs": [
-                        "Front End" ,"Web Components"
+                        "Front End" ,"Web Components","html5",
+                        "css3"
                     ],
                     "description": "Calculadora de becas desarrollada con web components nativos de js.",
                     "url": "https://dev-almazan-calculadora.netlify.app/",
@@ -84,22 +90,6 @@
                     "category": "Componente Web",
                     "size": 2024
                 },
-                 {
-                    "id": "6",
-                    "name": "Sitio web Conexxion",
-                    "git": "default",
-                    "tecs": [
-                        "Front End",
-                        "Web Components"
-                    ],
-                    "description": "Desarrollo Front End del sitio web consumiendo API REST desplegado en cms Hub Spot.",
-                    "url": "https://www.aliatuniversidades.com.mx/conexxion",
-                    "img": "/media/20.png",
-                    "category": "Componente Web",
-                    "size": 2024
-                },
- 
-
                 {
                     "id": "7",
                     "name": "Flows Encryption PHP NATIVO",
