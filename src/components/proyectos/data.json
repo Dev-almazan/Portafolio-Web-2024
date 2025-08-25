@@ -1,6 +1,23 @@
 
    
     [
+
+                                    {
+                                        "id": "8",
+                                        "name": "Chat en Tiempo Real",
+                                        "git": "https://github.com/Dev-almazan/Chat-en-tiempo-real-",
+                                        "tecs": [
+                                            "Express Js",
+                                            "Node js",
+                                            "Handlebars",
+                                            "Socket io"
+                                        ],
+                                        "description": "Aplicación basada en web sockets para chat en tiempo real con Node js , Express y Socket io.",
+                                        "url": "https://chat-en-tiempo-real-yvzv.onrender.com/",
+                                        "img": "/media/33.png",
+                                        "category": "Web Sockets chat",
+                                        "size": 2025
+                                    },
                             {
                                 "id": "9",
                                 "name": "Landing page",
