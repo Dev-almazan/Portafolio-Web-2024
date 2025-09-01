@@ -12,8 +12,8 @@
                                             "Handlebars",
                                             "Socket io"
                                         ],
-                                        "description": "Aplicación basada en web sockets para chat en tiempo real con Node js , Express y Socket io.",
-                                        "url": "https://chat-en-tiempo-real-yvzv.onrender.com/",
+                                        "description": "Aplicación basada en web sockets para chat en tiempo real con Node js , Express y Socket io , desplegada en GCP Cloud Run.",
+                                        "url": "https://chat-en-tiempo-real-924929611301.northamerica-northeast1.run.app/",
                                         "img": "/media/33.png",
                                         "category": "Web Sockets chat",
                                         "size": 2025
