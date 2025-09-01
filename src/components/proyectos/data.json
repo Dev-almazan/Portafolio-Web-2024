@@ -43,8 +43,8 @@
                         "Mongo Cloud",
                         "Aws"
                     ],
-                    "description": "Proyecto de api rest desarrollada en Express Js con persistencia en base de datos mongo db",
-                    "url": "https://api-rest-ecommerce-seq3.onrender.com/api/products/",
+                    "description": "Proyecto de api rest desarrollada en Express Js con persistencia en base de datos mongo db y desplegada en GCP Cloud Run.",
+                    "url": "https://test-api-cloud-924929611301.northamerica-northeast1.run.app/api/products",
                     "img": "/media/30.png",
                     "category": "Api Rest",
                     "size": 2025
