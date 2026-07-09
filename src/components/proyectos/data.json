@@ -1,7 +1,39 @@
 
    
     [
+{
+    "id": "11",
+    "name": "SEO Link Auditor & Reporter",
+    "git": "https://github.com/Dev-almazan/",
+    "tecs": [
+        "Node.js",
+        "Express.js",
+        "Handlebars",
+        "JavaScript",
+        "APIs"
+    ],
+    "description": "Aplicación monolítica (MVC) para auditoría técnica SEO que rastrea sitios web, analiza asíncronamente enlaces rotos y genera reportes detallados descargables en Excel.",
+    "url": "https://app-web-mkt-seo-150522628579.us-central1.run.app/seo-app/dashboard",
+    "img": "/media/34.png",
+    "category": "Backend / Automatización",
+    "size": 2026
+},
 
+                                            {
+                                                "id": "10",
+                                                "name": "Agente Test Vocacional Chat",
+                                                "git": "https://github.com/Dev-almazan/",
+                                                "tecs": [
+                                                    "Front End",
+                                                    "html5",
+                                                    "css3"
+                                                ],
+                                                "description": "Desarrollo Front end de interfaz utilizando web components css & Java Script.",
+                                                "url": "https://www.etac.edu.mx/testvocacional-ia-etac",
+                                                "img": "/media/10.png",
+                                                "category": "Agente Chat",
+                                                "size": 2026
+                                            },
                                     {
                                         "id": "8",
                                         "name": "Chat en Tiempo Real",
@@ -44,7 +76,7 @@
                         "Aws"
                     ],
                     "description": "Proyecto de api rest desarrollada en Express Js con persistencia en base de datos mongo db y desplegada en GCP Cloud Run.",
-                    "url": "https://test-api-cloud-924929611301.northamerica-northeast1.run.app/api/products",
+                    "url": "default",
                     "img": "/media/30.png",
                     "category": "Api Rest",
                     "size": 2025
@@ -105,20 +137,6 @@
                     "url": "https://dev-almazan-calculadora.netlify.app/",
                     "img": "/media/16.png",
                     "category": "Componente Web",
-                    "size": 2024
-                },
-                {
-                    "id": "7",
-                    "name": "Flows Encryption PHP NATIVO",
-                    "git": "https://github.com/Dev-almazan/Flows-Encryption-PHP-NATIVO",
-                    "tecs": [
-                        "Back End",
-                        "Encryptación Asimetrica"
-                    ],
-                    "description": "Integración Web con PHP para establecer comunicación con Whats App para el intercambio de datos de WhatsApp Flows.",
-                    "url": "default",
-                    "img": "/media/24.png",
-                    "category": "App Web",
                     "size": 2024
                 }
 

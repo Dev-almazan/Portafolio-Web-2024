@@ -23,12 +23,29 @@ body
 /*Navbar*/
 
 
-.menu
-{
-    padding-top: 1%;
-    width: 60%;
-    margin:  0 auto;
+.menu {
+    /* 1. Declaración Sticky (con soporte para Apple) */
+    position: -webkit-sticky !important;
+    position: sticky !important;
+
+    /* 2. Coordenada obligatoria */
+    top: 1%;
+    z-index: 1000;
+    
+    /* 3. Centrado y dimensiones (usando Flexbox si ocupa el 100% o margen si es menor) */
+    width: 40% !important;
+    margin: 0 auto;
+    /* Con sticky, margin: 0 auto sí vuelve a funcionar para centrar horizontalmente */
+    height: fit-content !important;
+
+    /* 4. Efecto iPhone */
+    border-radius: 15px !important;
+    background-color: rgba(17, 16, 16, 0.236);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 .5rem 1rem rgba(219, 214, 214, 0.15) !important;
 }
+
 .menu svg
 {
     width: 1.5rem;
@@ -75,14 +92,33 @@ body
 @media (max-width: 1250px) {
         /*Navbar*/
 
-        .menu
-        {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
+        .inicio, .proyectos, .contacto {
+           margin-top :3rem !important;
         }
+
+.menu {
+        /* Ajustamos el ancho para que el borde redondeado se vea bien */
+        width: 100% !important;
+        height: fit-content !important;
+        margin: 0 auto !important;
+        position: fixed !important;
+        top: 0;
+        z-index: 1000;
+
+        /* --- EL TRUCO PARA CENTRAR UN ELEMENTO FIXED --- */
+        left: 50%;
+        transform: translateX(-50%);
+        /* ----------------------------------------------- */
+
+        border-radius: 0px !important;
+
+        /* Efecto iPhone / Glassmorphism */
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 .5rem 1rem rgba(219, 214, 214, 0.15) !important;
+        
+    }
 
         .botones:hover {
             transition: .3s all;
@@ -94,14 +130,21 @@ body
     .menu, .offcanvas-end {
           text-align: center;
             background-color: #171818b1 !important;
-           
+        
         }
+        
 
     .menu .offcanvas-body
     {
         display: grid;
         align-content: center;
         width: 100% !important;
+        
+    }
+    #offcanvasNavbar2
+    {
+        width: 100vw !important;
+        height: 100vh !important;
     }
         .menu svg {
             width: 2.8rem;
