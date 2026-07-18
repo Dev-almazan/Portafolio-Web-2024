@@ -1,41 +1,36 @@
 # ----------------------------------------------------------------------
-# Etapa 1: Construcción (Build)
+# Etapa 1: Instalación y Compilación
 # ----------------------------------------------------------------------
-FROM node:20-slim as builder
+FROM node:20-slim AS builder
 WORKDIR /app
 
-# Silenciar el aviso de actualización de npm en los logs de Cloud Build
 ENV NPM_CONFIG_UPDATE_NOTIFIER=false
 
-# Copia los archivos de configuración de dependencias
 COPY package.json package-lock.json ./
-
-# Instala TODAS las dependencias (necesarias para compilar Astro)
 RUN npm ci
 
-# Copia el código fuente completo del portafolio
 COPY . .
-
-# Asegura permisos de ejecución en los binarios locales
-RUN chmod -R +x node_modules/.bin
-
-# Ejecuta el build estático de Astro (genera la carpeta /app/dist)
-RUN npm run build 
+RUN npm run build
 
 # ----------------------------------------------------------------------
-# Etapa 2: Servidor (Serve)
+# Etapa 2: Servidor en producción
 # ----------------------------------------------------------------------
-FROM nginx:stable-alpine
-WORKDIR /usr/share/nginx/html
+FROM node:20-slim AS runner
+WORKDIR /app
 
-# Elimina la configuración por defecto de Nginx
-RUN rm /etc/nginx/conf.d/default.conf
+ENV NODE_ENV=production
+ENV NPM_CONFIG_UPDATE_NOTIFIER=false
 
-# Copia tu archivo como plantilla para que Nginx inyecte el puerto de Cloud Run dinámicamente
-COPY nginx.conf /etc/nginx/templates/default.conf.template
+# Inyectamos las variables para que Astro escuche en la interfaz correcta y en el puerto de Cloud Run
+ENV HOST=0.0.0.0
+ENV PORT=8080
 
-# Copia los archivos estáticos finales desde la etapa de compilación
-COPY --from=builder /app/dist .
+# Copiamos solo lo necesario para producción para mantener la imagen ligera
+COPY package.json package-lock.json ./
+RUN npm ci --only=production
 
-# Comando para iniciar Nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Copiamos el build generado por el adaptador de Node
+COPY --from=builder /app/dist ./dist
+
+# Comando para iniciar el servidor nativo de Astro
+CMD ["node", "./dist/server/entry.mjs"]
