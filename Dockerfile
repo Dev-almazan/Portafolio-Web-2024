@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------
-# Etapa 1: Instalación y Compilación
+# Etapa 1: Instalación y Compilación (Usamos la imagen completa para asegurar herramientas)
 # ----------------------------------------------------------------------
-FROM node:20-slim AS builder
+FROM node:20 AS builder
 WORKDIR /app
 
 ENV NPM_CONFIG_UPDATE_NOTIFIER=false
@@ -10,27 +10,24 @@ COPY package.json package-lock.json ./
 RUN npm ci
 
 COPY . .
+# Forzamos la ejecución limpia del build
 RUN npm run build
 
 # ----------------------------------------------------------------------
-# Etapa 2: Servidor en producción
+# Etapa 2: Servidor en producción (Mantenemos la imagen ligera)
 # ----------------------------------------------------------------------
 FROM node:20-slim AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
 ENV NPM_CONFIG_UPDATE_NOTIFIER=false
-
-# Inyectamos las variables para que Astro escuche en la interfaz correcta y en el puerto de Cloud Run
 ENV HOST=0.0.0.0
 ENV PORT=8080
 
-# Copiamos solo lo necesario para producción para mantener la imagen ligera
 COPY package.json package-lock.json ./
 RUN npm ci --only=production
 
-# Copiamos el build generado por el adaptador de Node
+# Copiamos el build generado por el adaptador de Node desde la etapa builder
 COPY --from=builder /app/dist ./dist
 
-# Comando para iniciar el servidor nativo de Astro
 CMD ["node", "./dist/server/entry.mjs"]
