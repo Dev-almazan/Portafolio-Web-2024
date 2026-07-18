@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# Etapa 1: Instalación y Compilación (Usamos la imagen completa para asegurar herramientas)
+# Etapa 1: Instalación y Compilación
 # ----------------------------------------------------------------------
 FROM node:20 AS builder
 WORKDIR /app
@@ -10,11 +10,14 @@ COPY package.json package-lock.json ./
 RUN npm ci
 
 COPY . .
-# Forzamos la ejecución limpia del build
+
+# Solución al Permission Denied: Forzamos permisos de ejecución en los binarios
+RUN chmod -R +x node_modules/.bin
+
 RUN npm run build
 
 # ----------------------------------------------------------------------
-# Etapa 2: Servidor en producción (Mantenemos la imagen ligera)
+# Etapa 2: Servidor en producción (El resto se queda igual)
 # ----------------------------------------------------------------------
 FROM node:20-slim AS runner
 WORKDIR /app
@@ -27,7 +30,6 @@ ENV PORT=8080
 COPY package.json package-lock.json ./
 RUN npm ci --only=production
 
-# Copiamos el build generado por el adaptador de Node desde la etapa builder
 COPY --from=builder /app/dist ./dist
 
 CMD ["node", "./dist/server/entry.mjs"]
