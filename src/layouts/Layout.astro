@@ -1,32 +1,40 @@
 ---
-	import { ViewTransitions } from 'astro:transitions';
-	import '../libs/css/bootstrap.css';
-	import '../styles.css';
-    import Navbar from "../layouts/Navbar.astro";
-	import Footer from "../layouts/Footer.astro";
-    const { title } = Astro.props;
+import { ViewTransitions } from "astro:transitions";
+import faviconSvg from "../media/logo.svg";
+import "../assets/css/guia-estilos.css";
+import "../assets/css/main.css";
+import Navbar from "../layouts/Navbar.astro";
+import Footer from "../layouts/Footer.astro";
+const { title } = Astro.props;
 ---
 
 <html lang="es-mx">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Bienvenido a A mi Portafolio Web - Desarrollador Web">
-		<meta name="keywords" content="programacion desarrollo web diseño web">
-		<meta name="author" content="Ernesto Almazan Resendiz">
+		<link rel="icon" type="image/svg+xml" href={faviconSvg.src} />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="Bienvenido a A mi Portafolio Web - Desarrollador Web"
+		/>
+		<meta
+			name="keywords"
+			content="programacion desarrollo web diseño web"
+		/>
+		<meta name="author" content="Ernesto Almazan Resendiz" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{ title } </title>
+		<title>{title}</title>
 		<ViewTransitions />
 	</head>
-	<body >
-        <Navbar></Navbar>
-        <slot/> <!-- your content is injected here -->
-		<Footer></Footer>
+	<body>
+		<Navbar />
+		<slot />
+		<Footer />
 		<script>
-			import "../libs/js/bootstrap.js";
+			import "../assets/js/main.js";
+		</script>
+		<script>
+			import "@lottiefiles/dotlottie-wc";
 		</script>
 	</body>
 </html>
-
-

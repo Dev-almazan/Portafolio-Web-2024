@@ -1,26 +1,58 @@
----
-import "./home.css";
-import { Image } from "astro:assets";
-import img from "./img/astro.png";
----
+<section class="home">
+	<div class="home__container">
+		<div class="home__grid">
+			<div class="home__content">
+				<span class="home__badge">Full Stack Developer</span>
+				<h1 class="home__title">Dev Almazán</h1>
+				<p class="home__description" id="home-subtitle">
+					Bienvenido a mi portafolio web, a continuación podras
+					encontrar algunos de los proyectos que he generado asi como
+					información acerca de mi.
+				</p>
 
-<section class="inicio">
-	<div>
-		<h1 class="display-3 pb-2">Ernesto Almazán</h1>
-		<h2 class="pb-2">Desarrollador Web Full Stack</h2>
-		<p>
-			Bienvenido a mi portafolio web, a continuación podras encontrar
-			algunos de los proyectos que he generado asi como información acerca
-			de mi.
-		</p>
-
-		<p>
-			<a class="btn btn-primario" href="/proyectos" role="button"
-				>Ver proyectos »</a
-			>
-		</p>
-	</div>
-	<div>
-		<Image src={img} class="img" alt=" Ernesto Almazán" />
+				<div class="home__actions">
+					<a href="/proyectos" class="__button button--primary">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="currentColor"
+							width="30"
+							height="30"
+							class="barra_navegacion_svg"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z"
+							></path>
+						</svg>Ver Proyectos</a
+					>
+					<a
+						href="https://api.whatsapp.com/send?phone=525639657080&text=%C2%A1Hola+Dev+Almaz%C3%A1n%21"
+						class="__button button--secondary"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="currentColor"
+							width="30"
+							height="30"
+							class="barra_navegacion_svg"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"
+							></path>
+						</svg>Contactar</a
+					>
+				</div>
+			</div>
+			<div class="home__visual">
+				<dotlottie-wc
+					class="home__visual__lottie"
+					src="https://lottie.host/fcc3f21d-a3df-43a5-87de-09aabc9bb005/7bpIlOVcOS.lottie"
+					autoplay
+					loop
+				>
+				</dotlottie-wc>
+			</div>
+		</div>
 	</div>
 </section>

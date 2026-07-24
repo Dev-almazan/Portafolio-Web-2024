@@ -1,45 +1,164 @@
+<header class="header-principal">
+  <nav class="barra_navegacion">
+    <div class="barra_navegacion__contenedor">
+      <a href="/" class="barra_navegacion__cta">
+        <p class="barra_navegacion__logo">
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="barra_navegacion_svg"
+          >
+            <path
+              d="M16 11L17.6965 12.5268C19.239 13.9151 20.0103 14.6093 20.0103 15.5C20.0103 16.3907 19.239 17.0849 17.6965 18.4732L16 20"
+              stroke="var(--color-theme)"
+              stroke-width="1.5"
+              stroke-linecap="round"></path>
+            <path
+              opacity="0.5"
+              d="M13.9868 5L10 20"
+              stroke="var(--color-theme)"
+              stroke-width="1.5"
+              stroke-linecap="round"></path>
+            <path
+              d="M8.00005 4.82959L6.30358 6.35641C4.76102 7.74471 3.98975 8.43886 3.98975 9.32959C3.98975 10.2203 4.76102 10.9145 6.30358 12.3028L8.00005 13.8296"
+              stroke="var(--color-theme)"
+              stroke-width="1.5"
+              stroke-linecap="round"></path>
+          </svg>
+          Dev Almazán
+        </p>
+      </a>
+      <div class="barra_navegacion__controles">
+        <button
+          class="barra_navegacion__toggle"
+          id="btn-abrir-menu"
+          aria-label="Abrir menú"
+          aria-controls="menu-principal"
+          aria-expanded="false"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 40 32"
+            class="barra_navegacion_svg"
+          >
+            <path
+              class="btn_svgs"
+              id="hambur"
+              d="M10.5,33.722a1.641,1.641,0,0,1,1.455-1.778H33.045a1.814,1.814,0,0,1,0,3.556H11.955A1.641,1.641,0,0,1,10.5,33.722ZM-5.5,19.5a1.641,1.641,0,0,1,1.455-1.778H33.045A1.641,1.641,0,0,1,34.5,19.5a1.641,1.641,0,0,1-1.455,1.778H-4.045A1.641,1.641,0,0,1-5.5,19.5Zm8-14.222A1.641,1.641,0,0,1,3.955,3.5H33.045A1.641,1.641,0,0,1,34.5,5.278a1.641,1.641,0,0,1-1.455,1.778H3.955A1.641,1.641,0,0,1,2.5,5.278Z"
+              transform="translate(5.5 -3.5)"
+              fill-rule="evenodd"></path>
+          </svg>
+        </button>
 
+        <button
+          class="barra_navegacion__toggle oculto"
+          id="btn-cerrar-menu"
+          aria-label="Cerrar menú"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 32 32"
+            class="barra_navegacion_svg"
+          >
+            <path
+              id="equis"
+              d="M-1826.039,14235.469l-12.961-12.953-12.961,12.953a1.748,1.748,0,0,1-1.262.531,1.746,1.746,0,0,1-1.258-.531,1.745,1.745,0,0,1-.52-1.25,1.781,1.781,0,0,1,.52-1.266l12.965-12.953-12.965-12.969a1.755,1.755,0,0,1-.52-1.266,1.772,1.772,0,0,1,.52-1.25,1.731,1.731,0,0,1,1.258-.516,1.734,1.734,0,0,1,1.262.516l12.961,12.969,12.961-12.969a1.731,1.731,0,0,1,1.258-.516,1.731,1.731,0,0,1,1.258.516,1.776,1.776,0,0,1,.523,1.25,1.758,1.758,0,0,1-.523,1.266l-12.965,12.969,12.965,12.953a1.785,1.785,0,0,1,.523,1.266,1.749,1.749,0,0,1-.523,1.25,1.746,1.746,0,0,1-1.258.531A1.746,1.746,0,0,1-1826.039,14235.469Z"
+              transform="translate(1855 -14204)"></path>
+          </svg>
+        </button>
+      </div>
 
-   <nav class="navbar navbar-expand-lg navbar-dark menu " aria-label="Offcanvas navbar large">
-    <div class="container">
-      <a class="navbar-brand" href="#">Dev Almazán</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link "  href="/">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-door oculto" viewBox="0 0 16 16"><path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/></svg>
-                Inicio
-              </a>
-            </li>
-            <li class="nav-item" >
-              <a class="nav-link "  href="/about">
-                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                 </svg>Sobre Mi 
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link "  href="/proyectos">
-                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-database-gear" viewBox="0 0 16 16">
-                <path d="M12.096 6.223A5 5 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.5 4.5 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.5 4.5 0 0 1-.813-.927Q8.378 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.6 4.6 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10q.393 0 .774-.024a4.5 4.5 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777M3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4"/>
-                <path d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-                </svg>Proyectos
-              </a>
-            </li>
-          </ul>
-          <form class="d-flex mt-3 mt-lg-0" role="search">
-            
-          </form>
-        </div>
+      <div class="barra_navegacion__menu" id="menu-principal">
+        <ul class="barra_navegacion__lista">
+          <li class="barra_navegacion__item">
+            <a
+              href="/"
+              class="barra_navegacion__enlace barra_navegacion__enlace--boton"
+              title="Inicio"
+            >
+              <svg
+                width="30"
+                height="30"
+                class="barra_navegacion_svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                ><path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"
+                ></path></svg
+              >
+              Inicio
+            </a>
+          </li>
+          <li class="barra_navegacion__item">
+            <a
+              href="/sobre-mi"
+              title="Acerca de mi"
+              class="barra_navegacion__enlace barra_navegacion__enlace--boton"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                width="30"
+                height="30"
+                class="barra_navegacion_svg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+                ></path>
+              </svg>
+              Sobre mi
+            </a>
+          </li>
+          <li class="barra_navegacion__item">
+            <a
+              href="/proyectos"
+              title="Acerca de mi"
+              class="barra_navegacion__enlace barra_navegacion__enlace--boton"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                width="30"
+                height="30"
+                class="barra_navegacion_svg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.096 6.223A5 5 0 0 0 13 5.698V7c0 .289-.213.654-.753 1.007a4.5 4.5 0 0 1 1.753.25V4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.5 4.5 0 0 1-.813-.927Q8.378 15 8 15c-1.464 0-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13h.027a4.6 4.6 0 0 1 0-1H8c-1.464 0-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10q.393 0 .774-.024a4.5 4.5 0 0 1 1.102-1.132C9.298 8.944 8.666 9 8 9c-1.464 0-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777M3 4c0-.374.356-.875 1.318-1.313C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4"
+                ></path>
+                <path
+                  d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
+                ></path>
+              </svg>
+              Proyectos
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="barra_navegacion__theme__btn">
+        <label
+          class="theme-switch"
+          for="theme-toggle"
+          aria-label="Alternar tema"
+        >
+          <input
+            type="checkbox"
+            id="theme-toggle"
+            class="theme-switch__input"
+          />
+          <span class="theme-switch__slider">
+            <span class="theme-switch__icon" id="theme-icon"></span>
+          </span>
+        </label>
       </div>
     </div>
   </nav>
+</header>

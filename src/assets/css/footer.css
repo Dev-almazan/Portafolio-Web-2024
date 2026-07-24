@@ -1,0 +1,298 @@
+
+/* ==========================================================================
+   VARIABLES DE COLOR Y TIPOGRAFÍA
+   ========================================================================== */
+:root {
+    --pie-bg-color: rgba(var(--rgba-navbar), .80);
+    --pie-text-color: var(--color-base-dark);
+    --pie-border-color: var(--color-base-dark);
+    --pie-font-family: var(--font-family-primary);
+    /* Cambiar por la fuente de tu proyecto */
+}
+
+/* ==========================================================================
+   ESTILOS BASE (ESCRITORIO)
+   ========================================================================== */
+.pie_de_pagina {
+    background-color: var(--pie-bg-color);
+    color: var(--pie-text-color);
+    font-family: var(--pie-font-family);
+    padding: 40px 20px;
+}
+
+.pie_de_pagina__contenedor {
+    max-width: var(--layout-container-width);
+    margin: 0 auto;
+}
+
+/* --- Sección Superior --- */
+.pie_de_pagina__superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 140px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.pie_de_pagina__logo {
+    max-width: 180px;
+    height: auto;
+}
+
+.pie_de_pagina__navegacion {
+    display: flex;
+    gap: 60px;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+/* En escritorio, ocultamos el botón del menú acordeón y mostramos solo el texto si es necesario */
+.pie_de_pagina__boton-movil {
+    display: none;
+}
+
+/* Como en escritorio no usamos los botones, usaremos pseudo-elementos o 
+   simplemente dejaremos la lista visible por defecto */
+.pie_de_pagina__lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pie_de_pagina__enlace {
+    color: var(--pie-text-color);
+    text-decoration: none;
+    font-size: calc(var(--font-size-2) - 1px);
+    transition: opacity 0.3s color 0.3s ease;
+    font-weight: 400;
+}
+
+.pie_de_pagina__enlace:hover, .pie_de_pagina__enlace-legal:hover {
+    opacity: 0.7;
+    color: var(--color-crimson);
+}
+
+/* --- Separador --- */
+.pie_de_pagina__separador {
+    border: none;
+    border: 1px solid var(--pie-border-color);
+    opacity: .8;
+    margin: 30px 0;
+}
+
+/* --- Sección Inferior --- */
+.pie_de_pagina__inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie_de_pagina__legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.pie_de_pagina__enlace-legal,
+.pie_de_pagina__copyright {
+    color: var(--pie-text-color);
+    text-decoration: none !important;
+    margin: 0;  
+        font-size: calc(var(--font-size-2) - 1px);
+            font-weight: 500;
+}
+
+ 
+
+.pie_de_pagina__copyright {
+    padding-top: .6rem;
+}
+
+.pie_de_pagina__enlace-legal:hover {
+    text-decoration: underline;
+}
+
+/* Redes Sociales */
+.pie_de_pagina__sociales {
+    display: flex;
+    gap: 45px;
+}
+
+.pie_de_pagina__icono-enlace {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    width: fit-content;
+    height: auto;
+}
+
+.pie_de_pagina__icono-enlace:hover {
+    transform: translateY(-6px);
+}
+
+.pie_de_pagina__eslogan {
+    max-width: 200px;
+    height: auto;
+}
+
+@media (max-width: 1600px) {
+
+.pie_de_pagina__superior {
+    gap: 40px;
+}
+.pie_de_pagina_svg 
+{
+    width:75% !important;
+}
+.pie_de_pagina__navegacion {
+    gap: 40px;
+}
+
+.pie_de_pagina__superior
+{
+margin-bottom: 3rem;
+}
+
+.pie_de_pagina__eslogan-contenedor_svg
+{
+    width: 85%;
+}
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (VERSIÓN MÓVIL)
+   ========================================================================== */
+@media (max-width: 1050px) {
+.pie_de_pagina__enlace, .pie_de_pagina__item
+{
+    color: #555 !important ;
+}
+    
+
+    .pie_de_pagina_svg
+    {
+        
+        width: 70% !important;
+        height: auto !important;
+    }
+
+    .pie_de_pagina__eslogan-contenedor_svg{
+        width: 80% !important;
+        height: auto !important;
+        margin:  0 auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .pie_de_pagina__superior {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0 !important;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .pie_de_pagina__logo-contenedor {
+        margin-bottom: 20px;
+    }
+
+    .pie_de_pagina__navegacion {
+        gap: 20px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    /* Botones del Acordeón en móvil */
+    .pie_de_pagina__boton-movil {
+        display: flex;
+        justify-content: left;
+        gap: 10px;
+        width: 100%;
+        background: none;
+        border: none;
+        color: var(--pie-text-color);
+        font-size: var(--font-size-2);
+        font-weight: 500;
+        cursor: pointer;
+        padding: 10px 0;
+        font-family: inherit;
+    }
+
+    .pie_de_pagina__icono-flecha {
+        transition: transform 0.3s ease;
+        font-size: 12px;
+    }
+
+    /* Rotación de la flecha cuando está abierto */
+    .pie_de_pagina__boton-movil.is-active .pie_de_pagina__icono-flecha {
+        transform: rotate(180deg);
+    }
+
+    /* Ocultamos la lista por defecto en móvil y configuramos el acordeón */
+    .pie_de_pagina__lista {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    /* Clase que el JS añadirá para abrir el menú */
+    .pie_de_pagina__lista.is-open {
+        max-height: 400px;
+        padding: 1rem 0;
+        transition: max-height 0.3s ease-in;
+        
+    }
+
+   
+    /* Reorganizar sección inferior */
+    .pie_de_pagina__inferior {
+       
+       
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Orden visual según el mockup móvil: 1. Eslogan, 2. Redes, 3. Legal */
+    .pie_de_pagina__eslogan-contenedor {
+        order: 1;
+        padding: 1rem ;
+        box-sizing: border-box;
+    }
+
+    .pie_de_pagina__sociales {
+        order: 2;
+        gap: 20px;
+    }
+
+    .pie_de_pagina__icono-enlace {
+        width: 50px;
+        /* Iconos más grandes en móvil */
+        height: 50px;
+    }
+
+    .pie_de_pagina__legal {
+        order: 3;
+        align-items: center;
+        text-align: center; 
+        display: grid !important;
+        text-align: left;
+        font-size: var(--font-size-3);
+        padding: 2rem 0;
+    }
+
+    .pie_de_pagina__enlace-legal,
+    .pie_de_pagina__copyright
+    {
+        font-size: var(--font-size-3) !important;
+    }
+}
