@@ -334,7 +334,10 @@ html {
     }
 
     .barra_navegacion__logo {
-            justify-self: start;
+        justify-self: start;
+            -webkit-justify-self: start;
+            margin-left: 0;
+                margin-right: auto;
         }
 
         
