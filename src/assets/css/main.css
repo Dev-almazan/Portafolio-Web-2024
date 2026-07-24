@@ -14,8 +14,8 @@
     --size-h1: 3rem;
     --size-h2: 2.5rem;
     --size-h3: 2rem;
-    --size-h4: 1.2rem;
-    --size-h5: 1.05rem;
+    --size-h4: 1.3rem;
+    --size-h5: 1.2rem;
     --size-p: 1rem;
     --size-svg: var(--size-h5);
     --gap-options: .4rem;
@@ -319,11 +319,11 @@ html {
 
     .barra_navegacion__theme__btn {
         top: 100%;
-        top: .8rem;
-        right: 3rem;
+        top: 21px;
+        right: 4rem;
         position: absolute;
         width: 60px !important;
-        height:calc(var(--size-svg)  + 5px);
+        height:calc(var(--size-svg)  + 2px);
         align-items: center;
         flex-shrink: 0;
     }
